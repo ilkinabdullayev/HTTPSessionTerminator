@@ -34,7 +34,7 @@ public class SessionList extends HttpServlet {
         out.println("<table border=1>");
         out.println("<tr>");
         out.println("<td>SessionId</td>");
-        out.println("<td>Active</td>");
+        out.println("<td>IsNew</td>");
         out.println("<td>Kill</td>");
         out.println("</tr>");
         for (String string : sets) {
